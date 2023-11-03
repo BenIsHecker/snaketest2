@@ -13,8 +13,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.x  # Specify your Python version, e.g., 3.8 or 3.11
+          python-version: 3.11 
       - name: Install Dependencies
-        run: pip install -r requirements.txt  # Ensure your requirements.txt file is in your repository
+        run: pip install -r requirements.txt 
       - name: Run Snake Game
-        run: python snake_dqn.py  # Replace with the actual name of your Python script
+        run: python snake_dqn.py  
